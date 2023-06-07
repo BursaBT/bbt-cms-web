@@ -22,7 +22,6 @@ import BeachAccessTwoToneIcon from '@mui/icons-material/BeachAccessTwoTone';
 import HowToVoteTwoToneIcon from '@mui/icons-material/HowToVoteTwoTone';
 import TrafficTwoToneIcon from '@mui/icons-material/TrafficTwoTone';
 import CheckBoxTwoToneIcon from '@mui/icons-material/CheckBoxTwoTone';
-import WorkspacePremiumTwoToneIcon from '@mui/icons-material/WorkspacePremiumTwoTone';
 import CameraFrontTwoToneIcon from '@mui/icons-material/CameraFrontTwoTone';
 import DisplaySettingsTwoToneIcon from '@mui/icons-material/DisplaySettingsTwoTone';
 
@@ -404,21 +403,6 @@ function SidebarMenu() {
                     startIcon={<CameraFrontTwoToneIcon />}
                   >
                     Error 500
-                  </Button>
-                </NextLink>
-              </ListItem>
-              <ListItem component="div">
-                <NextLink href="/status/maintenance" passHref>
-                  <Button
-                    className={
-                      currentRoute === '/status/maintenance' ? 'active' : ''
-                    }
-                    disableRipple
-                    component="a"
-                    onClick={closeSidebar}
-                    startIcon={<WorkspacePremiumTwoToneIcon />}
-                  >
-                    Maintenance
                   </Button>
                 </NextLink>
               </ListItem>

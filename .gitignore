@@ -19,3 +19,8 @@ yarn-error.log*
 
 # JetBrains IDEs
 .idea
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static

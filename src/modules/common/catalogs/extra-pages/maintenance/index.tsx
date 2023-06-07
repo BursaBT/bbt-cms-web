@@ -37,7 +37,7 @@ const TopWrapper = styled(Box)(
 `
 );
 
-function StatusMaintenance() {
+function Maintenance() {
   return (
     <>
       <Head>
@@ -110,8 +110,8 @@ function StatusMaintenance() {
   );
 }
 
-export default StatusMaintenance;
+export default Maintenance;
 
-StatusMaintenance.getLayout = function getLayout(page: ReactElement) {
+Maintenance.getLayout = function getLayout(page: ReactElement) {
   return <BaseLayout>{page}</BaseLayout>;
 };
