@@ -23,7 +23,6 @@ import HowToVoteTwoToneIcon from '@mui/icons-material/HowToVoteTwoTone';
 import TrafficTwoToneIcon from '@mui/icons-material/TrafficTwoTone';
 import CheckBoxTwoToneIcon from '@mui/icons-material/CheckBoxTwoTone';
 import WorkspacePremiumTwoToneIcon from '@mui/icons-material/WorkspacePremiumTwoTone';
-import CameraFrontTwoToneIcon from '@mui/icons-material/CameraFrontTwoTone';
 import DisplaySettingsTwoToneIcon from '@mui/icons-material/DisplaySettingsTwoTone';
 
 const MenuWrapper = styled(Box)(
@@ -391,19 +390,6 @@ function SidebarMenu() {
                     startIcon={<CheckBoxTwoToneIcon />}
                   >
                     Error 404
-                  </Button>
-                </NextLink>
-              </ListItem>
-              <ListItem component="div">
-                <NextLink href="/status/500" passHref>
-                  <Button
-                    className={currentRoute === '/status/500' ? 'active' : ''}
-                    disableRipple
-                    component="a"
-                    onClick={closeSidebar}
-                    startIcon={<CameraFrontTwoToneIcon />}
-                  >
-                    Error 500
                   </Button>
                 </NextLink>
               </ListItem>
